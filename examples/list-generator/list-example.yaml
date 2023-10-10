@@ -17,7 +17,7 @@ spec:
       project: default
       source:
         repoURL: https://github.com/argoproj/applicationset.git
-        targetRevision: HEAD
+        targetRevision: test
         path: examples/list-generator/guestbook/{{cluster}}
       destination:
         server: '{{url}}'
